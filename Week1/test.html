@@ -1,0 +1,26 @@
+<!-- test.html -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> JS Test </title>
+</head>
+<body>
+    <form>
+        <input id="text" type="text">
+        <input id="btn" type="button" value="Input your name">
+    </form>
+
+    <h1> Who are you </h1>
+
+    <script>
+        const btn = document.querySelector("#btn");
+        const text = document.querySelector("#text");
+        const helloText = document.querySelector('h1');
+        
+        btn.addEventListener('click', () => {
+            helloText.innerText = `Hello ${text.value}`
+        });
+    </script>
+</body>
+</html>
