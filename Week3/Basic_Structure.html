@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Taejin" />
+    <meta name="description" content="HTML Basic Codes" />
+    <title>Basic Structure</title>
+
+    <style>
+      h1 {color: blue;}
+      #p1 {color: red}
+      .p2 {color: royalblue;}
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>문자</h1>
+    <h2>제목</h2>
+    <h1>대제목</h1>
+    <h2>소제목</h2>
+    <h3>소소제목</h3>
+    <h4>소소소제목</h4>
+    <h5>소소소소제목</h5>
+    <h6>소소소소소제목</h6>
+
+    <h2>단락</h2>
+    <p id="p1">This is paragraph id는 p1</p>
+    <p class="p2">단락은 자동으로 Margin이 들어감 class는 p2</p>
+    <p class="p2">
+      안에서 엔터를 치더라도, 다음줄로 넘어가지 않음 <br />
+      다음줄로 넘어가고 싶으면 &lt;br/&gt;을 쓰면 됨
+    </p>
+
+    <h2>문자 꾸미기</h2>
+    <p>강조는 <strong>strong</strong></p>
+    <p>이탤릭은 <i>i</i></p>
+    <p>하이라이팅은 <mark>mark</mark></p>
+
+    <h2>리스트</h2>
+    <h3>순서 없는 리스트</h3>
+    <ul style="color: green;">
+      <li>순서 없는 리스트를 쓰기 위해서는 ul 태그로 시작</li>
+      <li>리스트의 요소들은 li로 채워줌</li>
+      <li>ul은 Unordered List</li>
+    </ul>
+
+    <h3>순서 있는 리스트</h3>
+    <ol>
+      <li>순서 있는 리스트는 ol</li>
+      <li>순서 없는 리스트와 사용법은 동일</li>
+      <li>ol은 ordered list</li>
+      <li>순서 있는 리스트는 자동으로 숫자를 매겨줌</li>
+    </ol>
+
+    <h1>멀티미디어 삽입</h1>
+    <h2>이미지 삽입</h2>
+    <ul>
+      <li>이미지 삽입을 위해서는 img 태그를 사용</li>
+      <li>꼭 src 속성을 넣어주고, 값을 이미지의 주소로</li>
+      <li>alt 속성은 이미지의 설명이자, 찾는 이미지가 없을 때 보여줄 글씨</li>
+    </ul>
+    <!-- Images 폴더 안에 CodeCure Logo라는 이미지 존재, 같은 폴더 내에는 CodeCure Logo가 없음 -->
+    <img src="Images/CodeCure Logo.jpg" alt="CodeCure 로고 입니다." />
+    <img src="CodeCure Logo.jpg" alt="CodeCure 로고 입니다." />
+
+    <h2>영상 삽입</h2>
+    <ul>
+      <li>동영상 삽입은 video 태그</li>
+      <li>
+        사용법은 vidio 태그 요소 안에 source 태그로 이미지 주소와 type 넣어주기
+      </li>
+      <li>유튜브 영상도 삽입 가능</li>
+    </ul>
+
+    <video controls width="560" height="315">
+      <source src="Videos/Coding on a laptop.mp4" type="video/mp4" />
+    </video>
+
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/SK6Sm2Ki9tI"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+
+    <h2>링크 삽입</h2>
+    <ul>
+      <li>링크 삽입은 a tag</li>
+      <li>사용법은 href 속성에 html의 주소를 넣어주기</li>
+      <li>href 속성에 도메인 주소도 입력 가능</li>
+    </ul>
+    <a href="subpage.html"> Subpage </a> <br />
+
+    <a href="http://www.naver.com"> Naver </a>
+
+    <h1>Table</h1>
+    <ul>
+      <li>thead는 머리</li>
+      <li>tr은 한 행</li>
+      <li>td는 table data</li>
+    </ul>
+
+    <table>
+      <thead>
+        this is header
+      </thead>
+      <tr>
+        <td>hi</td>
+        <td>hi2</td>
+      </tr>
+      <tr>
+        <td>hihi</td>
+        <td>hihi2</td>
+      </tr>
+    </table>
+
+    <h1>Section</h1>
+    <ul>
+      <li><mark>div</mark></li>
+      <li>span</li>
+      <li>section</li>
+      <li>article</li>
+    </ul>
+  </body>
+</html>
