@@ -38,6 +38,6 @@ const students2 = [
 ];
 // const students2 = [student4, student5, student6 ]
 
-console.log(students2.name, students2.korean, students2.math);
-console.log(students2.name, students2.korean, students2.math);
-console.log(students2.name, students2.korean, students2.math);
+console.log(students2[0].name, students2[0].korean, students2[0].math);
+console.log(students2[1].name, students2[1].korean, students2[1].math);
+console.log(students2[2].name, students2[2].korean, students2[2].math);
