@@ -9,3 +9,4 @@
 - [유지연](https://github.com/UJiBear/Codecure-web)
 - [허현정](https://github.com/Heo-Hyunjung/CodeCure-Web)
 - [전승호](https://github.com/shnarfski/Codecure_webteam)
+- [오민택](https://github.com/mintaek561/CodeCure-Web)
